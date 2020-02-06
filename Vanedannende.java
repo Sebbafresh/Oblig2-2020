@@ -12,6 +12,10 @@ public class Vanedannende extends Legemiddel {
         return styrke;
     }
 
+    @Override
+    public String toString(){
+      return "Navnet paa preparatet: " + navn + "| ID: " + id + "| pris: " + pris + "| virkestoff; " + virkestoff + "| styrke: " + styrke;
+    }
 
 
 }

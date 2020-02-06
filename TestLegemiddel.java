@@ -43,6 +43,10 @@ public class TestLegemiddel {
         nark.settNyPris(666);
         System.out.println("Ny pris: " + nark.hentPris());
 
+        System.out.println(van);
+        System.out.println(vaned);
+        System.out.println(nark);
+
 
 
     }

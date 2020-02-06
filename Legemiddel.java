@@ -34,4 +34,6 @@ abstract public class Legemiddel {
         pris = nyPris;
     }
 
+    public abstract String toString();
+
 }
