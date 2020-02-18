@@ -46,6 +46,8 @@ public class TestLegemiddel {
         System.out.println(van);
         System.out.println(vaned);
         System.out.println(nark);
+        System.out.println(van);
+
 
 
 
