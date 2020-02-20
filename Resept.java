@@ -31,5 +31,21 @@ public abstract class Resept{
     return reit;
   }
 
+  public int hentId(){
+    return id;
+  }
+
+  public boolean bruk(){
+    if(reit > 0){
+      reit--;
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  abstract public String farge();
+  abstract public double prisAaBetale();
+
 
 }
