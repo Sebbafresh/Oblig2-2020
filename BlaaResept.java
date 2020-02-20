@@ -1,5 +1,5 @@
 class BlaaResept extends Resept{
-
+  private int pris;
   public BlaaResept(Legemiddel legemiddel, Lege utskrivendeLege, int pasientID, int reit){
     super(legemiddel, utskrivendeLege, pasientID, reit);
   }
@@ -11,6 +11,6 @@ class BlaaResept extends Resept{
 
   @Override
   public double prisAaBetale(){
-    return 0;
+    return legemiddel.hentPris() * 0.25;
   }
 }

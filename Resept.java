@@ -1,5 +1,5 @@
 public abstract class Resept{
-  private Legemiddel legemiddel;
+  protected Legemiddel legemiddel;
   private Lege utskrivendeLege;
   protected int pasientID;
   protected int reit;

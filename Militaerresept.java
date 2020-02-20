@@ -1,5 +1,4 @@
 class Militaerresept extends HvitResept{
-  private int pris;
   public Militaerresept(Legemiddel legemiddel, Lege utskrivendeLege, int pasientID, int reit){
     super(legemiddel, utskrivendeLege, pasientID, reit);
 
@@ -7,7 +6,7 @@ class Militaerresept extends HvitResept{
 
   @Override
   public double prisAaBetale(){
-    return 0;
+    return legemiddel.hentPris() * 0;
   }
 
 

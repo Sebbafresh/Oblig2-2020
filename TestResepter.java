@@ -9,6 +9,7 @@ class TestResepter{
     HvitResept hres = new HvitResept(van, lege, 100, 150);
     HvitResept hres2 = new HvitResept(vaned, lege, 50, 15);
     PResept pres = new PResept(vaned, lege, 50);
+    BlaaResept bres = new BlaaResept(nark, lege, 50, 15);
 
     System.out.println(hres.farge());
     System.out.println(hres.hentId());
@@ -16,6 +17,7 @@ class TestResepter{
     System.out.println(pres.hentId());
     pres.bruk();
     System.out.println(pres.hentReit());
+    System.out.println(bres.prisAaBetale());
 
   }
 }
