@@ -3,7 +3,7 @@ class TestResepter{
     Vanlig van = new Vanlig("vanlig", 150, 7);
     Vanedannende vaned = new Vanedannende("Heroin", 80, 5, 9000);
     Narkotisk nark = new Narkotisk("nark", 180, 9, 2);
-    Lege lege = new Lege();
+    Lege lege = new Lege("Peter");
 
 
     HvitResept hres = new HvitResept(van, lege, 100, 150);
@@ -18,6 +18,7 @@ class TestResepter{
     pres.bruk();
     System.out.println(pres.hentReit());
     System.out.println(bres.prisAaBetale());
+    System.out.println(bres.farge());
 
   }
 }
